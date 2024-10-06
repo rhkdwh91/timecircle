@@ -19,7 +19,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import BigCalendar from './src/components/BigCalendar.tsx';
+import TimeCalendar from './src/components/TimeCalendar.tsx';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -71,7 +71,7 @@ function App(): React.JSX.Element {
             Time Circle
           </Section>
         </View>
-          <BigCalendar />
+          <TimeCalendar />
       </ScrollView>
     </SafeAreaView>
   );
