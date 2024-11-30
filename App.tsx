@@ -19,7 +19,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import TimeCalendar from './src/components/TimeCalendar.tsx';
+import TimeCalendar from './src/entity/calendar/ui/TimeCalendar.tsx';
 
 type SectionProps = PropsWithChildren<{
   title: string;
